@@ -24,8 +24,8 @@ namespace DT_AP_2019
             try
             {
                 PMR.ReadProcess = roProcess;
-                this.currentHpBaseAddress = 0x00E4CAF4;
-                this.mouseFixAddress = 0x00E135C8;
+                this.currentHpBaseAddress = 0x010DCE10;
+                this.mouseFixAddress = 0x010D85DC;
                 this.statusBufferAddress = this.currentHpBaseAddress + 0x474;
 
                 PMR.OpenProcess();
